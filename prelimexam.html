@@ -16,7 +16,9 @@
 h1 {text-align: left;  font-family: 'Poppins'; font-size: 50px;   color:  black; margin-top: 110px;}
 h6 {text-align: left;  font-family: 'Poppins'; font-size: 50px;   color:  black; margin-top: 200px;}
 p {text-align: left;  font-family: 'Poppins';    color:  black; margin-right: 20px;}
-q {text-align: center;  font-family: 'Poppins';    color:  darkblue; margin-right: 20px;}
+q {text-align: center;  font-family: 'Poppins';    color:  #283655; margin-right: 20px;}
+r {text-align: center; margin-bottom: 10px;  font-family: 'Poppins'; font-size: 15px;   color:  black; }
+h7 {text-align: left;  font-family: 'Poppins'; font-size: 30px;   color:  black; margin-top: 50px;}
 
 .carousel-item{
     min-height: 280px;
@@ -38,11 +40,12 @@ q {text-align: center;  font-family: 'Poppins';    color:  darkblue; margin-righ
     text-align: center;
     color:  black;
     font-family: 'Poppins';
-    background: lightblue;
+ 
+    background: #63ace5;
 }
 .btn-primary{
     font-family: 'Oswald';
-    background: lightblue;
+    background: #adcbe3;
     color:  darkblue;
     border: black;
     margin-right: 20px;
@@ -54,14 +57,17 @@ q {text-align: center;  font-family: 'Poppins';    color:  darkblue; margin-righ
     margin-right: 20px;
     margin-top: 10px;
     text-align: center;
+    border: black;
 
 }
 .accordion{
     margin-top: 20px;
+    margin-bottom: 50px;
+   
 }
 .card-body{
     font-family: 'Poppins';
-    background: rgb(138, 209, 236);
+    background: #adcbe3;
     font-size: 18px;
 }
 .card-bo{
@@ -81,7 +87,7 @@ q {text-align: center;  font-family: 'Poppins';    color:  darkblue; margin-righ
     margin-bottom: 50px;
 }
 body{
-    background: linear-gradient(to bottom left, #33ccff 0%, #ffcc99 92%);
+    background: #e7eff6;
 }
 .custom-card{
     border: 2px solid #f00; /* Red border with 2px thickness */
@@ -89,7 +95,7 @@ body{
 }
 
 .carousel-item img {
-    border: 2px solid #007bff; /* Add your desired border style here */
+    border: 2px solid black; /* Add your desired border style here */
     border-radius: 5px; /* Optional: Add rounded corners */
   }
 </style>
@@ -100,7 +106,14 @@ body{
 </style>
 </head>
 <body>
+   
     <p>
+        
+        <nav class="navbar navbar-expand-lg navbar-dark " style="background-color: #2a4d69;">
+
+            <a href="https://web.facebook.com/uescpes" class="navbar-brand">
+                <img src="logo.png" height="30" alt="CoolBrand"  style="border-radius: 20px;">
+            </a>
         <a class="btn btn-primary" data-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample1"> Importancy </a>
         <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#multiCollapseExample2" aria-expanded="false" aria-controls="multiCollapseExample2"> Skills </button>
         <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#multiCollapseExample3" aria-expanded="false" aria-controls="multiCollapseExample3"> Purpose </button>
@@ -109,11 +122,9 @@ body{
         <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#multiCollapseExample6" aria-expanded="false" aria-controls="multiCollapseExample6"> Vision </button>
         <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#multiCollapseExample7" aria-expanded="false" aria-controls="multiCollapseExample7"> Objective </button>
         <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#multiCollapseExample8" aria-expanded="false" aria-controls="multiCollapseExample8"> Outcomes </button>
-
-        <button class="btn btn-primary" type="button" data-toggle="collapse" data-target=".multi-collapse" aria-expanded="false" aria-controls="multiCollapseExample1 multiCollapseExample2">Toggle both elements</button>
+        </nav>
       </p>
       <div class="row">
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
 
         <div class="col">
           <div class="collapse multi-collapse" id="multiCollapseExample1">
@@ -169,11 +180,11 @@ body{
           <div class="col">
             <div class="collapse multi-collapse" id="multiCollapseExample8">
               <div class="card card-bo">
-                - Employ knowledge of contemporary issues
-                - Communicate effectively in both Filipino and English
-                - Apply knowledge of mathematics, chemistry, and engineering 
-                - Know your professional and ethical responsibilities.
-                - Identify, define, and resolve engineering problems 
+               <r>- Employ knowledge of contemporary issues</r> 
+               <r>- Communicate effectively in both Filipino and English</r> 
+               <r>- Apply knowledge of mathematics, chemistry, and engineering </r> 
+               <r>- Know your professional and ethical responsibilities.</r> 
+               <r>- Identify, define, and resolve engineering problems </r> 
             </div>
             </div>
           </div>
@@ -234,8 +245,8 @@ body{
 </div>
 <h1> Computer engineering </h1>
 <div class="card-group" >
-    <div class="card">
-        <img src="ards.jpg" class="card-img-top" alt="..." height="300px" width="200px">
+    <div class="card" style="border-radius: 20px;">
+        <img src="ards.jpg" class="card-img-top" alt="..." height="300px" width="200px" style="border: 2px solid black; border-radius: 20px;">
         <div class="card-bod">
             <h5 class="card-title">Embedded systems</h5>
             <q class="card-text">Industrial robots
@@ -245,8 +256,8 @@ body{
         </div>
     </div>
     
-    <div class="card">
-        <img src="soft.jpg" class="card-img-top" alt="..." height="300px" width="200px">
+    <div class="card" style="border-radius: 20px;">
+        <img src="soft.jpg" class="card-img-top" alt="..." height="300px" width="200px" style="border: 2px solid black; border-radius: 20px;">
         <div class="card-bod">
             <h5 class="card-title">Software development</h5>
             <q class="card-text">Python | C++ | HTML 
@@ -255,8 +266,8 @@ body{
         </div>
     </div>
     
-    <div class="card">
-        <img src="networks.jpg" class="card-img-top" alt="..." height="300px" width="200px">
+    <div class="card" style="border-radius: 20px;">
+        <img src="networks.jpg" class="card-img-top" alt="..." height="300px" width="200px" style="border: 2px solid black; border-radius: 20px;">
         <div class="card-bod">
             <h5 class="card-title">Computer networks</h5>
             <q class="card-text">LAN | WAN | CAN 
@@ -269,7 +280,9 @@ body{
     </div>
 </div>
 <h6> Specializations</h6>
+
 <div class="accordion accordion-flush" id="myAccordion">
+    
     <div class="accordion-item">
         <h2 class="accordion-header" id="headingOne">
             <button type="button" class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#collapseOne">1. Networking</button>									
@@ -378,6 +391,40 @@ body{
             </div>
         </div>
     </div>
+</div>
+    
+<h7> Best Asst. Professor in Computer engineering </h7>
+    <div class="card-group" >
+        <div class="card" style="border-radius: 20px;">
+            <img src="sironofre.jpg" class="card-img-top" alt="..." height="300px" width="200px" style="border: 2px solid black; border-radius: 20px;">
+            <div class="card-bod">
+                <h5 class="card-title">Onofre Corpuz</h5>
+                <q class="card-text"> 
+                    BSECE, FEATI (1993); MES, UE (2017)
+                    
+                </q>
+            </div>
+        </div>
+        
+        <div class="card" style="border-radius: 20px;">
+            <img src="sirerrol.jpg" class="card-img-top" alt="..." height="300px" width="200px" style="border: 2px solid black; border-radius: 20px;">
+            <div class="card-bod">
+                <h5 class="card-title">Errol john melendez antonio</h5>
+                <q class="card-text">BSCpE, UE (2012); MEng-CpE, PLM (2018); DIT, UE (on-going) 
+                </q>
+            </div>
+        </div>
+        
+        <div class="card" style="border-radius: 20px;">
+            <img src="maderlim.jpg" class="card-img-top" alt="..." height="300px" width="200px" style="border: 2px solid black; border-radius: 20px;"   >
+            <div class="card-bod">
+                <h5 class="card-title">Mary ann limkian</h5>
+                <q class="card-text"> BSCpE, UE (2000); MEng-CpE, PLM (2006); DBA, UE (units earned); DIT, UE (on-going)
+                </q>
+            </div>
+        </div>
+          
+        </div>
     
 </div>
 
