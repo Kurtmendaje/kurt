@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Bootstrap Carousel</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<style>
+
+h1 {text-align: center;     color:  rgb(119, 255, 1);
+  background-color: blue;}
+
+.carousel-item{
+    min-height: 280px;
+    min-width: 280px;
+}
+.navbar{
+    display: flex;
+    justify-content: center;
+}
+.accordion-item{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+.accordion-button{
+    text-align: center;
+    color:  rgb(119, 255, 1);
+    background-color: blue;
+}
+.btn-primary{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: blue;
+    color:  rgb(119, 255, 1);
+}
+.card{
+    height: 300px;
+    width: 300px;
+    margin-right: 20px;
+    margin-top: 20px;
+    text-align: center;
+}
+.accordion{
+    margin-top: 100px;
+}
+.card-body{
+    font-family: 'Times New Roman', Times, serif;
+    color:  rgb(119, 255, 1);
+    margin-right: 20px;
+}
+.card-bod{
+    font-family: 'Times New Roman', Times, serif;
+color: blue;
+    margin-right: 20px;
+}
+body{
+    background: linear-gradient(to bottom left, #33ccff 0%, #ffcc99 92%);
+}
+.btn-primary{
+    margin-left: 35px;
+}
+</style>
+</head>
+<body>
+    <p>
+        <a class="btn btn-primary" data-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample1"> Importancy </a>
+        <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#multiCollapseExample2" aria-expanded="false" aria-controls="multiCollapseExample2"> Skills </button>
+        <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#multiCollapseExample3" aria-expanded="false" aria-controls="multiCollapseExample3"> Purpose </button>
+        <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#multiCollapseExample4" aria-expanded="false" aria-controls="multiCollapseExample4"> Why bscpe </button>
+        <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#multiCollapseExample5" aria-expanded="false" aria-controls="multiCollapseExample5"> Mission </button>
+        <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#multiCollapseExample6" aria-expanded="false" aria-controls="multiCollapseExample6"> Vision </button>
+        <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#multiCollapseExample7" aria-expanded="false" aria-controls="multiCollapseExample7"> Objective </button>
+        <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#multiCollapseExample8" aria-expanded="false" aria-controls="multiCollapseExample8"> Outcomes </button>
+
+        <button class="btn btn-primary" type="button" data-toggle="collapse" data-target=".multi-collapse" aria-expanded="false" aria-controls="multiCollapseExample1 multiCollapseExample2">Toggle both elements</button>
+      </p>
+      <div class="row">
+        <div class="col">
+          <div class="collapse multi-collapse" id="multiCollapseExample1">
+            <div class="card card-body">
+                Computer engineers play a crucial role in various industries, including data integrity, military design, healthcare, and robotics. They create data management systems, military embedded devices, and supercomputers, and are essential in fields like CAT scans, wearable devices, and robotics.            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="collapse multi-collapse" id="multiCollapseExample2">
+            <div class="card card-body">
+                Profiency in computers. 
+                Experience working with hardware components
+                knowledge of programming languages            </div>
+          </div>
+        </div>
+        <div class="col">
+            <div class="collapse multi-collapse" id="multiCollapseExample3">
+              <div class="card card-body">
+                Computer engineers design, create, and test computer hardware and software, analyze the results, and update outdated equipment so that it’s ready to use with new software. Some engineers also oversee manufacturing and development processes, while others are more involved in testing software.              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="collapse multi-collapse" id="multiCollapseExample4">
+              <div class="card card-body">
+                Computer engineers are critical to technological advancement. They create novel hardware and software solutions that advance sectors such as artificial intelligence, robotics, IoT (Internet of Things), and others. </div>            </div>
+          </div>
+          <div class="col">
+            <div class="collapse multi-collapse" id="multiCollapseExample5">
+              <div class="card card-body">
+                The Department of Computer Engineering announces its mission to produce competitive engineers with core knowledge of digital and computer system design, software development, and physical system modeling.
+            </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="collapse multi-collapse" id="multiCollapseExample6">
+              <div class="card card-body">
+                As a national leader in computing, research, and education, the Department of Computer Engineering will have an impact on the information era.
+                            </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="collapse multi-collapse" id="multiCollapseExample7">
+              <div class="card card-body">
+                Contribute to the growth of a progressive society by adhering to the UE fundamental values of Excellence, Integrity, Professionalism, Teamwork, Commitment, Transparency, Accountability, and Social Responsibility. </div>
+
+
+            </div>
+          </div>
+          <div class="col">
+            <div class="collapse multi-collapse" id="multiCollapseExample8">
+              <div class="card card-body">
+                - Apply knowledge of current issues
+                - Effectively communicate in both Filipino and English
+                - Apply mathematics, science, and engineering knowledge 
+                - Understand your professional and ethical duties.
+                - Recognize, define, and solve engineering issues            </div>
+            </div>
+          </div>
+      </div>
+
+<div class="container-lg my-3">
+    <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+        <!-- Carousel indicators -->
+        <ol class="carousel-indicators">
+            <li data-bs-target="#myCarousel" data-bs-slide-to="0" class="active"></li>
+            <li data-bs-target="#myCarousel" data-bs-slide-to="1"></li>
+            <li data-bs-target="#myCarousel" data-bs-slide-to="2"></li>
+        </ol>
+        
+        <!-- Wrapper for carousel items -->
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="com.jpg" class="d-block w-100" alt="Slide 1">
+            </div>
+            <div class="carousel-item">
+                <img src="comeng1.jpg" class="d-block w-100" alt="Slide 2">
+            </div>
+        </div>
+
+        <!-- Carousel controls -->
+        <a class="carousel-control-prev" href="#myCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a class="carousel-control-next" href="#myCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </a>
+    </div>
+</div>
+<h1 style="font-family:'Times New Roman', Times, serif;"> Computer engineering </h1>
+<div class="card-group" >
+    <div class="card">
+        <img src="ards.jpg" class="card-img-top" alt="..." height="300px" width="200px">
+        <div class="card-bod">
+            <h5 class="card-title">Embedded systems</h5>
+            <p class="card-text">Industrial robotis
+                                 Gaming consoles   
+                                 GPS Receivers    
+            </p>
+        </div>
+    </div>
+    <div class="card">
+        <img src="soft.jpg" class="card-img-top" alt="..." height="300px" width="200px">
+        <div class="card-bod">
+            <h5 class="card-title">Software development</h5>
+            <p class="card-text">Python | C++ | HTML 
+                                 CSS    | CSS | Java Script 
+            </p>
+        </div>
+    </div>
+    <div class="card">
+        <img src="networks.jpg" class="card-img-top" alt="..." height="300px" width="200px">
+        <div class="card-bod">
+            <h5 class="card-title">Computer networks</h5>
+            <p class="card-text">LAN | WAN | CAN 
+                                 MAN | HAN 
+            </p>
+        </div>
+        
+    </div>
+</div>
+
+<div class="accordion accordion-flush" id="myAccordion">
+    <div class="accordion-item">
+        <h1 style="font-family:'Times New Roman', Times, serif;"> Specializations</h1>
+        <h2 class="accordion-header" id="headingOne">
+            <button type="button" class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#collapseOne">1. Networking</button>									
+        </h2>
+        <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#myAccordion">
+            <div class="card-body">
+                <p>The creation and ongoing maintenance of computer network systems are part of the networking speciality. These networks typically consist of extranet, intranet, wide area network (WAN), and local area network (LAN) components. If there are any mistakes, a networking expert works rapidly to correct them.<a href="https://www.indeed.com/career-advice/career-development/computer-engineering-specialization" target="_blank">Learn more.</a></p>
+            </div>
+        </div>
+    </div>
+    <div class="accordion-item">
+        <h2 class="accordion-header" id="headingTwo">
+            <button type="button" class="accordion-button" data-bs-toggle="collapse" data-bs-target="#collapseTwo">2. Hardware systems</button>
+        </h2>
+        <div id="collapseTwo" class="accordion-collapse collapse show" data-bs-parent="#myAccordion">
+            <div class="card-body">
+                <p>A specialist in this field is largely responsible for designing and creating various hardware systems and components. They are able to produce motherboards, processors, and other necessary gadgets. They test prototypes after creating a new component to ensure that it functions properly.
+                    <a href="https://www.indeed.com/career-advice/career-development/computer-engineering-specialization" target="_blank">Learn more.</a></p>
+            </div>
+        </div>
+    </div>
+    <div class="accordion-item">
+        <h2 class="accordion-header" id="headingThree">
+            <button type="button" class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#collapseThree">3. Security</button>                     
+        </h2>
+        <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#myAccordion">
+            <div class="card-body">
+                <p>A security expert employs their knowledge of computer engineering to defend digital infrastructures from online dangers. They could defend a number of systems, including networks, databases, and webpages. The security systems are created and maintained by these specialists, who are also in charge of responding to any immediate cyberattacks.
+                    <a href="https://www.indeed.com/career-advice/career-development/computer-engineering-specialization" target="_blank">Learn more.</a></p>
+            </div>
+        </div>
+    </div>
+    <div class="accordion-item">
+        <h2 class="accordion-header" id="headingThree">
+            <button type="button" class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#collapseFour">4. Web development</button>                     
+        </h2>
+        <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#myAccordion">
+            <div class="card-body">
+                <p>Websites are created and maintained by those who work in web development. They pay attention to the website's practical qualities in addition to its aesthetic appeal. They make sure their websites are user-friendly and appealing to visitors.
+ <a href="https://www.indeed.com/career-advice/career-development/computer-engineering-specialization" target="_blank">Learn more.</a></p>
+            </div>
+        </div>
+    </div>
+    <div class="accordion-item">
+        <h2 class="accordion-header" id="headingThree">
+            <button type="button" class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#collapseFive">5. Software development</button>                     
+        </h2>
+        <div id="collapseFive" class="accordion-collapse collapse" data-bs-parent="#myAccordion">
+            <div class="card-body">
+                <p>Software development professionals have a diverse range of duties, often dependent on the needs of their employer. Some build software systems, while others manage mobile device applications and company networks. These professionals usually have a firm understanding of the software development life-cycle and relevant methodologies. <a href="https://www.indeed.com/career-advice/career-development/computer-engineering-specialization" target="_blank">Learn more.</a></p>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+</body>
+</html> 
